@@ -5,13 +5,16 @@
 		"platform": "AnyCPU",
 		"preserveCompilationContext": true
 	},
-	"dependencies": {
-		"Microsoft.NETCore.App": {
-		"version": "2.0.0-preview1-002111-00"
-		},
-		"Tizen.NET": "3.0.0",
-		"Xamarin.Forms.Platform.Tizen": "2.3.5-r233-009"
-	},
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "version": "2.0.0-preview1-002111-00"
+    },
+    "Tizen.NET": "3.0.0",
+    "Xamarin.Forms.Platform.Tizen": "2.3.5-r233-009",
+    "NUnit": "3.6.1",
+    //"nunit.xamarin": "3.6.1",
+    "PCLStorage": "1.0.2"
+  },
 	"runtimes": {
 		"tizen.4.0.0-armel": {}
 	},

@@ -7,6 +7,7 @@ using Xamarin.Forms;
 
 namespace HelloTizenTDD
 {
+    // This class is not used: it is substituted with NUnit App
     public class App : Application
     {
         public App()
