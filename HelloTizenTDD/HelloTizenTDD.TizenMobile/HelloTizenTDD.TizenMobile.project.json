@@ -11,6 +11,7 @@
     },
     "Tizen.NET": "3.0.0",
     "Xamarin.Forms.Platform.Tizen": "2.3.5-r233-009",
+    "PCLStorage": "1.0.2",
     "NUnit": "3.6.1"
   },
   "runtimes": {

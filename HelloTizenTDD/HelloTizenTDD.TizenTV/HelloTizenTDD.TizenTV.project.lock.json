@@ -4062,10 +4062,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Projects\\NUnit\\HelloTizenTDD\\HelloTizenTDD\\HelloTizenTDD.TizenTV\\HelloTizenTDD.TizenTV.csproj",
+      "projectUniqueName": "C:\\Projects\\NUnit2\\HelloTizenTDD\\HelloTizenTDD\\HelloTizenTDD.TizenTV\\HelloTizenTDD.TizenTV.csproj",
       "projectName": "HelloTizenTDD.TizenTV",
-      "projectPath": "C:\\Projects\\NUnit\\HelloTizenTDD\\HelloTizenTDD\\HelloTizenTDD.TizenTV\\HelloTizenTDD.TizenTV.csproj",
-      "projectJsonPath": "C:\\Projects\\NUnit\\HelloTizenTDD\\HelloTizenTDD\\HelloTizenTDD.TizenTV\\HelloTizenTDD.TizenTV.project.json",
+      "projectPath": "C:\\Projects\\NUnit2\\HelloTizenTDD\\HelloTizenTDD\\HelloTizenTDD.TizenTV\\HelloTizenTDD.TizenTV.csproj",
+      "projectJsonPath": "C:\\Projects\\NUnit2\\HelloTizenTDD\\HelloTizenTDD\\HelloTizenTDD.TizenTV\\HelloTizenTDD.TizenTV.project.json",
       "projectStyle": "ProjectJson"
     },
     "dependencies": {

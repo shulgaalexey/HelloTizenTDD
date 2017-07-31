@@ -62,8 +62,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="nunit.runner.uwp">
-      <HintPath>..\..\..\sdk\nunit.xamarin\src\runner\nunit.runner.uwp\bin\Debug\nunit.runner.uwp.dll</HintPath>
+    <Reference Include="nunit.runner.Tizen">
+      <HintPath>..\..\..\..\nunit.xamarin\src\runner\nunit.runner.Tizen\bin\Debug\nunit.runner.Tizen.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
