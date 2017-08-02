@@ -1,6 +1,7 @@
 using NUnit.Runner.Services;
 using System;
 using System.Reflection;
+using Tizen.Applications;
 
 namespace HelloTizenTDD.TizenMobile
 {
@@ -37,11 +38,12 @@ namespace HelloTizenTDD.TizenMobile
                 //TcpWriterParameters = new TcpWriterInfo("192.168.0.108", 13000),
 
                 // Creates a NUnit Xml result file on the host file system using PCLStorage library.
-                CreateXmlResultFile = false,
+                CreateXmlResultFile = true,
 
                 // Choose a different path for the xml result file
                 // ResultFilePath = System.IO.Path.Combine(Windows.Storage.ApplicationData.Current.TemporaryFolder.Path, "Nunit", "Results.xml")
-            };
+                //ResultFilePath = Application.Current.DirectoryInfo.Data + "Results.xml"
+        };
 
             LoadApplication(nunit);
 
