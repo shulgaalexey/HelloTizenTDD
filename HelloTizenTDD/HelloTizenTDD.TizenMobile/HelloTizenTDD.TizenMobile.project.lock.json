@@ -234,6 +234,19 @@
           "lib/netstandard1.6/nunit.framework.dll": {}
         }
       },
+      "nunit.xamarin.tizen/3.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/PCLStorage.Abstractions.dll": {},
+          "lib/netstandard1.0/PCLStorage.dll": {},
+          "lib/netstandard1.0/nunit.runner.Tizen.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/PCLStorage.Abstractions.dll": {},
+          "lib/netstandard1.0/PCLStorage.dll": {},
+          "lib/netstandard1.0/nunit.runner.Tizen.dll": {}
+        }
+      },
       "System.IO/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -1535,6 +1548,19 @@
         },
         "runtime": {
           "lib/netstandard1.6/nunit.framework.dll": {}
+        }
+      },
+      "nunit.xamarin.tizen/3.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/PCLStorage.Abstractions.dll": {},
+          "lib/netstandard1.0/PCLStorage.dll": {},
+          "lib/netstandard1.0/nunit.runner.Tizen.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/PCLStorage.Abstractions.dll": {},
+          "lib/netstandard1.0/PCLStorage.dll": {},
+          "lib/netstandard1.0/nunit.runner.Tizen.dll": {}
         }
       },
       "runtime.any.System.IO/4.1.0": {
@@ -3312,6 +3338,18 @@
         "nunit.nuspec"
       ]
     },
+    "nunit.xamarin.tizen/3.6.1": {
+      "sha512": "Lq070aAZs+dWLH/3t9JI4V12SUn6+/58ah85zMKyFjxl6bJPSFW8ZZs7excZ9rHPrq3KCZXoz86gf03J1uB4Gw==",
+      "type": "package",
+      "path": "nunit.xamarin.tizen/3.6.1",
+      "files": [
+        "lib/netstandard1.0/PCLStorage.Abstractions.dll",
+        "lib/netstandard1.0/PCLStorage.dll",
+        "lib/netstandard1.0/nunit.runner.Tizen.dll",
+        "nunit.xamarin.tizen.3.6.1.nupkg.sha512",
+        "nunit.xamarin.tizen.nuspec"
+      ]
+    },
     "runtime.any.System.IO/4.1.0": {
       "sha512": "sC7zKVdhYQEtrREKBJf4zkUwNdi6fsbkzrhJLDIAxIxD+YA5PABAQJps13zxpA1Ke3AgzOA9551JDymAfmRuTg==",
       "type": "package",
@@ -5086,7 +5124,8 @@
       "Microsoft.NETCore.App >= 2.0.0-preview1-002111-00",
       "NUnit >= 3.6.1",
       "Tizen.NET >= 3.0.0",
-      "Xamarin.Forms.Platform.Tizen >= 2.3.5-r233-009"
+      "Xamarin.Forms.Platform.Tizen >= 2.3.5-r233-009",
+      "nunit.xamarin.tizen >= 3.6.1"
     ],
     ".NETCoreApp,Version=v2.0": []
   },
@@ -5103,9 +5142,10 @@
     },
     "dependencies": {
       "Microsoft.NETCore.App": "2.0.0-preview1-002111-00",
+      "NUnit": "3.6.1",
+      "nunit.xamarin.tizen": "3.6.1",
       "Tizen.NET": "3.0.0",
-      "Xamarin.Forms.Platform.Tizen": "2.3.5-r233-009",
-      "NUnit": "3.6.1"
+      "Xamarin.Forms.Platform.Tizen": "2.3.5-r233-009"
     },
     "frameworks": {
       "netcoreapp2.0": {
