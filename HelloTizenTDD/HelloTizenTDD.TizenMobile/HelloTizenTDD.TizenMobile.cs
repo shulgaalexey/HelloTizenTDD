@@ -1,7 +1,5 @@
 using NUnit.Runner.Services;
-using System;
 using System.Reflection;
-using Tizen.Applications;
 
 namespace HelloTizenTDD.TizenMobile
 {
@@ -11,7 +9,7 @@ namespace HelloTizenTDD.TizenMobile
         {
             base.OnCreate();
 
-            NUnitLogs.LogMessage($"***********OnCreate***********");
+            NUnitLogs.LogMessage($"***********OnCreateMobile***********");
 
             // Tizen will not load all tests within the current project,
             // you must do it explicitly below
@@ -43,12 +41,9 @@ namespace HelloTizenTDD.TizenMobile
                 // Choose a different path for the xml result file
                 // ResultFilePath = System.IO.Path.Combine(Windows.Storage.ApplicationData.Current.TemporaryFolder.Path, "Nunit", "Results.xml")
                 //ResultFilePath = Application.Current.DirectoryInfo.Data + "Results.xml"
-        };
+            };
 
             LoadApplication(nunit);
-
-
-            //LoadApplication(new App());
         }
 
         static void Main(string[] args)
