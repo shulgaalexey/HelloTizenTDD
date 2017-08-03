@@ -11,6 +11,7 @@
     },
     "NUnit": "3.6.1",
     "nunit.xamarin.tizen": "3.6.1",
+    "PCLStorage": "1.0.1",
     "Tizen.NET": "3.0.0",
     "Xamarin.Forms.Platform.Tizen": "2.3.5-r233-009"
   },

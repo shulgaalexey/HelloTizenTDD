@@ -247,6 +247,17 @@
           "lib/netstandard1.0/nunit.runner.Tizen.dll": {}
         }
       },
+      "PCLStorage/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/PCLStorage.Abstractions.dll": {},
+          "lib/netstandard1.0/PCLStorage.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/PCLStorage.Abstractions.dll": {},
+          "lib/netstandard1.0/PCLStorage.dll": {}
+        }
+      },
       "System.IO/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -1561,6 +1572,17 @@
           "lib/netstandard1.0/PCLStorage.Abstractions.dll": {},
           "lib/netstandard1.0/PCLStorage.dll": {},
           "lib/netstandard1.0/nunit.runner.Tizen.dll": {}
+        }
+      },
+      "PCLStorage/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/PCLStorage.Abstractions.dll": {},
+          "lib/netstandard1.0/PCLStorage.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/PCLStorage.Abstractions.dll": {},
+          "lib/netstandard1.0/PCLStorage.dll": {}
         }
       },
       "runtime.any.System.IO/4.1.0": {
@@ -3350,6 +3372,19 @@
         "nunit.xamarin.tizen.nuspec"
       ]
     },
+    "PCLStorage/1.0.1": {
+      "sha512": "VlrkecDG5XhyPzGdgheJAijB/5S6K0MTK8p34jUeYx0xSHdiw71koXmc2rz/cDS+58tLLr7sH8H6qG6KUvH1tA==",
+      "type": "package",
+      "path": "pclstorage/1.0.1",
+      "files": [
+        "lib/netstandard1.0/PCLStorage.Abstractions.dll",
+        "lib/netstandard1.0/PCLStorage.Abstractions.xml",
+        "lib/netstandard1.0/PCLStorage.dll",
+        "lib/netstandard1.0/PCLStorage.xml",
+        "pclstorage.1.0.1.nupkg.sha512",
+        "pclstorage.nuspec"
+      ]
+    },
     "runtime.any.System.IO/4.1.0": {
       "sha512": "sC7zKVdhYQEtrREKBJf4zkUwNdi6fsbkzrhJLDIAxIxD+YA5PABAQJps13zxpA1Ke3AgzOA9551JDymAfmRuTg==",
       "type": "package",
@@ -5123,6 +5158,7 @@
     "": [
       "Microsoft.NETCore.App >= 2.0.0-preview1-002111-00",
       "NUnit >= 3.6.1",
+      "PCLStorage >= 1.0.1",
       "Tizen.NET >= 3.0.0",
       "Xamarin.Forms.Platform.Tizen >= 2.3.5-r233-009",
       "nunit.xamarin.tizen >= 3.6.1"
@@ -5144,6 +5180,7 @@
       "Microsoft.NETCore.App": "2.0.0-preview1-002111-00",
       "NUnit": "3.6.1",
       "nunit.xamarin.tizen": "3.6.1",
+      "PCLStorage": "1.0.1",
       "Tizen.NET": "3.0.0",
       "Xamarin.Forms.Platform.Tizen": "2.3.5-r233-009"
     },
