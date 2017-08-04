@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="HelloTizenTDD.TizenTV.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestsSampleTV.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="lib\" />

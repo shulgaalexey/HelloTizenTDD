@@ -1,5 +1,6 @@
 using NUnit.Runner.Services;
 using System.Reflection;
+using HelloTizenTDD.TizenMobile;
 
 namespace HelloTizenTDD.TizenMobile
 {
@@ -18,7 +19,8 @@ namespace HelloTizenTDD.TizenMobile
             // If you want to add tests in another assembly, add a reference and
             // duplicate the following line with a type from the referenced assembly
             //nunit.AddTestAssembly(typeof(MainPage).GetTypeInfo().Assembly);
-            nunit.AddTestAssembly(typeof(Program).GetTypeInfo().Assembly);
+            //nunit.AddTestAssembly(typeof(Program).GetTypeInfo().Assembly);
+            nunit.AddTestAssembly(typeof(TestClass1).GetTypeInfo().Assembly);
 
             // Available options for testing
             nunit.Options = new TestOptions
