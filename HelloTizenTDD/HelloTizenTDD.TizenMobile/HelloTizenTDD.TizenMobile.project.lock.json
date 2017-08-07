@@ -247,7 +247,7 @@
           "lib/netstandard1.0/nunit.runner.Tizen.dll": {}
         }
       },
-      "PCLStorage/1.0.1": {
+      "PCLStorageTizen/1.0.1": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/PCLStorage.Abstractions.dll": {},
@@ -1574,7 +1574,7 @@
           "lib/netstandard1.0/nunit.runner.Tizen.dll": {}
         }
       },
-      "PCLStorage/1.0.1": {
+      "PCLStorageTizen/1.0.1": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/PCLStorage.Abstractions.dll": {},
@@ -3372,17 +3372,17 @@
         "nunit.xamarin.tizen.nuspec"
       ]
     },
-    "PCLStorage/1.0.1": {
-      "sha512": "VlrkecDG5XhyPzGdgheJAijB/5S6K0MTK8p34jUeYx0xSHdiw71koXmc2rz/cDS+58tLLr7sH8H6qG6KUvH1tA==",
+    "PCLStorageTizen/1.0.1": {
+      "sha512": "QECU1s7oQypBooHg9xKSgCCcEQ6mjF5o4wyXkaP0CJ/8jhQV7ZNOG3rSAd+rdCiZD4wIv0I++romSForDyzoRw==",
       "type": "package",
-      "path": "pclstorage/1.0.1",
+      "path": "pclstoragetizen/1.0.1",
       "files": [
         "lib/netstandard1.0/PCLStorage.Abstractions.dll",
         "lib/netstandard1.0/PCLStorage.Abstractions.xml",
         "lib/netstandard1.0/PCLStorage.dll",
         "lib/netstandard1.0/PCLStorage.xml",
-        "pclstorage.1.0.1.nupkg.sha512",
-        "pclstorage.nuspec"
+        "pclstoragetizen.1.0.1.nupkg.sha512",
+        "pclstoragetizen.nuspec"
       ]
     },
     "runtime.any.System.IO/4.1.0": {
@@ -5158,7 +5158,7 @@
     "": [
       "Microsoft.NETCore.App >= 2.0.0-preview1-002111-00",
       "NUnit >= 3.6.1",
-      "PCLStorage >= 1.0.1",
+      "PCLStorageTizen >= 1.0.1",
       "Tizen.NET >= 3.0.0",
       "Xamarin.Forms.Platform.Tizen >= 2.3.5-r233-009",
       "nunit.xamarin.tizen >= 3.6.1"
@@ -5179,10 +5179,13 @@
     "dependencies": {
       "Microsoft.NETCore.App": "2.0.0-preview1-002111-00",
       "NUnit": "3.6.1",
-      "nunit.xamarin.tizen": "3.6.1",
-      "PCLStorage": "1.0.1",
+      "PCLStorageTizen": "1.0.1",
       "Tizen.NET": "3.0.0",
-      "Xamarin.Forms.Platform.Tizen": "2.3.5-r233-009"
+      "Xamarin.Forms.Platform.Tizen": "2.3.5-r233-009",
+      "nunit.xamarin.tizen": {
+        "target": "Package",
+        "version": "[3.6.1, )"
+      }
     },
     "frameworks": {
       "netcoreapp2.0": {
